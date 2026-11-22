@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="w-full">
+
+    <nav class="w-full md:h-25 flex flex-col md:flex-row">
+        <div class="w-full md:w-[35%] h-20 md:h-25 flex items-center justify-center md:justify-center md:items-center md:pl-6">
+            <img src="./src/assets/top-logo.jpg" alt="" class="cursor-pointer w-48 h-12 md:w-52 md:h-15">
+        </div>
+        <div
+            class="w-full md:gap-13 md:w-[65%] pb-4 md:pb-0 md:h-25 flex flex-wrap items-center justify-center gap-4 [&>a]:font-semibold [&>a]:hover:border-b-3 [&>a]:hover:border-black">
+            <a href="#" class="border-b-3 border-black">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+            <button
+                class="bg-black w-39 md:w-32 h-12 text-white font-semibold cursor-pointer hover:scale-105 duration-400">Reserve
+                a Table</button>
+        </div>
+    </nav>
+
+    <main class="w-full ">
+        <section class="w-full min-h-125 md:h-157 bg-[url('./assets/bg-img.jpg')] bg-cover bg-center bg-no-repeat p-6 md:p-12">
+            <h4 class="font-semibold text-white tracking-widest">GOOD FOOD. BETTER COMPANY.</h4>
+            <h1 class="font-semibold text-white text-4xl md:text-6xl my-6 md:mr-220">A Fresh Take on Local Flavors</h1>
+            <p class="text-white md:mr-230 text-base md:text-lg">ASH & OLIVE, we serve thoughtfully crafted dishes
+                made from the finest local ingredients. Whether it's a
+                casual lunch or a special night out, our kitchen brings
+                people together around great food.</p>
+            <button class="bg-white mt-8 hover:bg-black w-44 h-12 text-black hover:text-white font-semibold cursor-pointer hover:scale-105 duration-400">
+                View Our Menu<i class="fa-solid fa-arrow-right-long"></i></button>
+
+        </section>
+
+        <div
+            class="w-full min-h-65 md:h-65 bg-[#F4F3EF] flex flex-wrap md:flex-nowrap items-center px-5 py-6 md:py-0 justify-center [&>div]:text-center [&>div]:border-gray-400 md:[&>div]:border-r [&>div]:cursor-pointer">
+            <div class="w-[50%] md:w-[23%] min-h-40 flex flex-col items-center justify-center hover:scale-105 duration-500">
+                <i class="fa-brands fa-pagelines text-5xl"></i>
+                <h4 class="tracking-widest font-semibold my-5 text-sm">FRESH INGREDIENTS</h4>
+                <h5 class="text-sm">Locally sourced, seasonally inspired.</h5>
+            </div>
+            <div class="w-[50%] md:w-[23%] min-h-40 flex flex-col items-center justify-center  hover:scale-105 duration-500">
+                <i class="fa-solid fa-utensils text-5xl"></i>
+                <h4 class="tracking-widest font-semibold my-5 text-sm">FRESH INGREDIENTS</h4>
+                <h5 class="text-sm">Locally sourced, seasonally inspired.</h5>
+            </div>
+            <div class="w-[50%] md:w-[23%] min-h-40 flex flex-col items-center justify-center  hover:scale-105 duration-500">
+                <i class="fa-solid fa-users text-5xl"></i>
+                <h4 class="tracking-widest font-semibold my-5 text-sm">FRESH INGREDIENTS</h4>
+                <h5 class="text-sm">Locally sourced, seasonally inspired.</h5>
+            </div>
+            <div
+                class="w-[50%] md:w-[23%] min-h-40 border-r border-none flex flex-col items-center justify-center  hover:scale-105 duration-500">
+                <i class="fa-solid fa-martini-glass-citrus text-5xl"></i>
+                <h4 class="tracking-widest font-semibold my-5 text-sm">FRESH INGREDIENTS</h4>
+                <h5 class="text-sm">Locally sourced, seasonally inspired.</h5>
+            </div>
+
+        </div>
+
+
+        <div class="w-full min-h-125 md:h-125 flex flex-col md:flex-row bg-[#dcdcdc] px-4 py-10 md:py-0 items-center justify-center gap-5 md:gap-3">
+            <div class="w-full md:w-[30%] md:h-95 md:p-12">
+                <h3 class="tracking-widest font-semibold">MENU HIGHLIGHTS</h3>
+                <h1 class="font-semibold text-4xl md:text-3xl my-5">Signature Dishes</h1>
+                <h4 class="text-gray-600 mb-8 md:text-sm">From fresh vegetables to wood-fires favourites, our menu is a
+                    celebration of bold flavours and simple ingredients.</h4>
+                <a class="border-b-2 border-black cursor-pointer font-semibold hover:text-blue-900">Explore Full Menu <i
+                        class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="w-full md:w-[23%] md:h-95 hover:scale-103 duration-300 ">
+                <img src="./src/assets/paneer.jpg" alt="" class="h-55 w-full object-cover rounded-2xl">
+                <h2 class="font-semibold text-xl md:text-base mt-3">Saahi Masala Paneer</h2>
+                <h3 class="text-gray-600 my-3 md:text-sm">With fresh Paneer, seasonal vegetables and quinoa.</h3>
+                <h2 class="font-semibold text-xl md:text-base">₹450</h2>
+            </div>
+            <div class="w-full md:w-[23%] md:h-95 hover:scale-103 duration-300 ">
+                <img src="./src/assets/pasta.avif" alt="" class="h-55 w-full object-cover rounded-2xl">
+                <h2 class="font-semibold text-xl md:text-base mt-3">Truffle Mushroom Pasta</h2>
+                <h3 class="text-gray-600 my-3 md:text-sm">Wild mushrooms, mayonese, red chilli.</h3>
+                <h2 class="font-semibold text-xl md:text-base">₹300</h2>
+            </div>
+            <div class="w-full md:w-[23%] md:h-95 hover:scale-103 duration-300 ">
+                <img src="./src/assets/pastry.jpg" alt="" class="h-55 w-full object-cover rounded-2xl">
+                <h2 class="font-semibold text-xl md:text-base mt-3">Choclate Cake</h2>
+                <h3 class="text-gray-600 my-3 md:text-sm">Warm choclate cake with fresh bread and cream.</h3>
+                <h2 class="font-semibold text-xl md:text-base">₹200</h2>
+            </div>
+        </div>
+
+        <section class="w-full md:h-110 flex flex-col md:flex-row">
+            <div class="w-full h-64 md:w-[51%] md:h-110 bg-[url('./assets/restaurant.jpg')] bg-cover bg-no-repeat bg-center"></div>
+            <div class="w-full md:w-[49%] md:h-110 px-6 py-10 md:py-0 md:pl-8 md:pr-4 md:pt-8">
+                <h3 class="tracking-widest font-semibold text-xl">OUR STORY</h3>
+                <h1 class="font-semibold my-3 text-3xl md:text-4xl">More Then a Meal</h1>
+                <p class="text-gray-600 mt-5 my-3 md:text-sm">ASH & OLIVE was born for a simple idea -- that great food, good
+                    drinks and geniune hospitalitycan turn an ordinarydata into something special.</p>
+                <p class="text-gray-600 mb-5 md:text-sm">We're a neighbourhood restaurant, build on fresh ingridients, seasonal
+                    menus, and a passion for bringing people togehter.</p>
+                <a href="#" class="border-b-2 border-black cursor-pointer font-semibold hover:text-blue-900">Learn More
+                    <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </section>
+
+
+        <div
+            class="w-full py-6 md:py-3 my-2 min-h-60 md:h-60 px-4 gap-3 text-center bg-[url('./assets/footer-img.jpg')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-evenly">
+            <h2 class="tracking-widest text-white font-semibold">MAKE A RESERVATION</h2>
+            <h1 class="font-semibold text-white tracking-wider text-2xl md:text-4xl">Join Us at the Table</h1>
+            <h2 class="tracking-widest text-white font-semibold text-sm md:text-base">Good food, great company and unforgettable moments.
+            </h2>
+            <button
+                class="bg-white hover:bg-black w-44 h-12 text-black hover:text-white font-semibold cursor-pointer md:ml-7 hover:scale-105 duration-400">Reserve
+                a Table<i class="fa-solid fa-arrow-right-long"></i></button>
+
+        </div>
+    </main>
+
+
+    <footer class="w-full md:h-40 flex flex-col">
+        <div class="w-full md:h-25 flex flex-col md:flex-row gap-4 py-4 md:py-0 [&>div]:items-center [&>div]:justify-center">
+            <div class="w-full md:w-[20%] md:h-25 flex  "><img src="/src/assets/top-logo.jpg" alt="" class="w-45"></div>
+            <div
+                class="w-full md:w-[60%] flex-wrap gap-4 md:gap-6 [&>a]:font-semibold md:h-25 flex items-center justify-center [&>a]:hover:text-gray-700">
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">About</a>
+                <a href="">Gallery</a>
+                <a href="">Contact us</a>
+            </div>
+            <div class="w-full md:w-[20%] md:h-25 gap-5 flex items-center justify-start [&>i]:cursor-pointer">
+                <i class="fa-brands fa-instagram text-2xl"></i>
+                <i class="fa-brands fa-facebook-f text-2xl"></i>
+                <i class="fa-brands fa-x-twitter text-2xl"></i>
+            </div>
+        </div>
+        <div class="w-full md:h-15 px-4 pb-4 md:pb-0 text-center text-sm md:text-base flex items-start justify-center ">©️2026 ASH & Olive. All rights reserved</div>
+    </footer>
+
+</body>
+
+</html>
